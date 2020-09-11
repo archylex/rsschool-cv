@@ -31,9 +31,9 @@ Vec2 FrolicUtils::rotate_coordinates(Vec2 _point, float _beta, Vec2 _null_point)
 
 bool FrolicUtils::checkCollision(Sprite *_a, Sprite *_b) {
 	if ((_a->getPosition().x + _a->getContentSize().width > _b->getPosition().x - _b->getContentSize().width / 2) &&
-		(_a->getPosition().x - _a->getContentSize().width < _b->getPosition().x + _b->getContentSize().width / 2) &&
-		(_a->getPosition().y > _b->getPosition().y) &&
-		(_a->getPosition().y < _b->getPosition().y + _b->getContentSize().height))
+	    (_a->getPosition().x - _a->getContentSize().width < _b->getPosition().x + _b->getContentSize().width / 2) &&
+	    (_a->getPosition().y > _b->getPosition().y) &&
+	    (_a->getPosition().y < _b->getPosition().y + _b->getContentSize().height))
     
 		return true;
 	
