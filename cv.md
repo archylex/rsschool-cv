@@ -1,4 +1,4 @@
-# Oleksander Zarzewski
+# Aleksandr Zarzewski
 
 - Contacts
   - archylexx@gmail.com
