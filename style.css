@@ -24,8 +24,13 @@ p.mark-box-text {
     font-family: Amaranth;
     font-weight: bold;
     color: #fcfefc;
-    writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
     text-orientation: mixed;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
 }
 
 header {
@@ -167,7 +172,7 @@ main {
     width: 210px;
     height: auto;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -189,8 +194,14 @@ p.theme-box-title {
     font-family: Amaranth;
     font-weight: bold;
     color: #fcfefc;
-    writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
     text-orientation: mixed;
+    vertical-align:top;
+	transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
 }
 
 .text-box {    
